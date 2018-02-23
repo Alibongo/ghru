@@ -1,0 +1,55 @@
+/*
+Error: File to import not found or unreadable: material-components-web/material-components-web.
+        on line 1 of style.scss
+
+1: @import "material-components-web/material-components-web";
+2: .mdc-button.mdc-button--raised {
+3:   @include mdc-button-filled-accessible(#FF9800);
+4: }
+
+Backtrace:
+style.scss:1
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:45:in `import'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin.rb:109:in `method_missing'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/base.rb:52:in `parse'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/base.rb:19:in `parse!'
+/Users/alibongo/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/bin/sass:13:in `<top (required)>'
+/Users/alibongo/.rbenv/versions/2.3.1/bin/sass:23:in `load'
+/Users/alibongo/.rbenv/versions/2.3.1/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: material-components-web/material-components-web.\A         on line 1 of style.scss\A \A 1: @import \"material-components-web/material-components-web\";\A 2: .mdc-button.mdc-button--raised {\A 3:   @include mdc-button-filled-accessible(#FF9800);\A 4: }"; }
