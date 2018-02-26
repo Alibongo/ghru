@@ -1,4 +1,9 @@
 @import "material-components-web/material-components-web";
-.mdc-button.mdc-button--raised {
-  @include mdc-button-filled-accessible(#FF9800);
+.my-grid {
+  --mdc-layout-grid-margin: 40px;
+  --mdc-layout-grid-gutter: 16px;
+}
+
+h2 {
+  color: red;
 }
